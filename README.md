@@ -1,2 +1,2 @@
-# FE590
-Assignments of FE590
+# FE595
+Assignments of FE595
