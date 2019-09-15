@@ -1,0 +1,16 @@
+##import needed packages
+import matplotlib.pyplot as plt
+import numpy as np
+##define period and define functions
+x = np.arange(0,2*np.pi,0.1)
+y = np.sin(x)
+z = np.cos(x)
+q = np.tan(x)
+##plot them and add labels
+plt.plot(x,y,x,z,x,q)
+plt.xlabel('0 to 2pi')
+plt.ylabel('tan(x), sin(x) and cos(x)')
+plt.title('Plot of tan, sin and cos form 0 to 2pi')
+plt.legend(['tan(x)','sin(x)','cos(x)'])
+plt.ylim(-3,3)
+plt.show()
